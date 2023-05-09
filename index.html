@@ -13,7 +13,25 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>grocery bud project</h1>
+    <section class="section-center">
+      <!-- form -->
+      <form class="grocery-form">
+        <p class="alert"></p>
+        <h3>Список покупок</h3>
+        <div class="form-control">
+          <input type="text" id="grocery" placeholder="например: конфеты" />
+          <button type="submit" class="submit-btn">добавить</button>
+        </div>
+      </form>
+      <!-- end form  -->
+      <!-- list  -->
+      <div class="grocery-container">
+        <div class="grocery-list"></div>
+        <!-- button  -->
+        <button type="button" class="clear-btn">очистить</button>
+      </div>
+    </section>
+
     <!-- javascript -->
     <script src="app.js"></script>
   </body>
